@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical"
+        tools:context=".TitleFragment">
+
+        <TextView
+            android:id="@+id/titlefrgtvtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click !!!!"
+            android:textColor="@color/orange"
+            android:textSize="60sp"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="103dp"
+            android:src="@drawable/ic_baseline_touch_app_24" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Touch the button as many times as you can before times runs out !! If you miss the button you will lose points :(" />
+
+        <Button
+            android:id="@+id/titlefrgbtnplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+
+            android:text="play" />
+    </LinearLayout>
+</layout>
